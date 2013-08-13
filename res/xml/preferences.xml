@@ -179,6 +179,13 @@
             android:entries="@array/pref_mms_notification_vibrate_pattern_entries"
             android:entryValues="@array/pref_mms_notification_vibrate_pattern_values"
             android:dialogTitle="@string/pref_title_mms_notification_vibrate_pattern" />
+
+        <CheckBoxPreference
+            android:key="new_sms_wakelock"
+            android:title="@string/pref_title_wake_screen_on_incoming_sms"
+            android:summary="@string/pref_summary_wake_screen_on_incoming_sms"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <!-- QuickMessage settings -->
@@ -187,7 +194,7 @@
             android:key="pref_dark_theme"
             android:title="@string/pref_dark_theme_title"
             android:summary="@string/pref_dark_theme_summary"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
         <CheckBoxPreference
             android:key="pref_key_quickmessage"
@@ -247,7 +254,7 @@
             android:key="pref_key_enable_emojis"
             android:title="@string/pref_title_enable_emojis"
             android:summary="@string/pref_summary_enable_emojis"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
         <CheckBoxPreference
             android:key="pref_key_enable_quick_emojis"
