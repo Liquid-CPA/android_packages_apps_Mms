@@ -107,6 +107,10 @@ public class MessagingPreferenceActivity extends PreferenceActivity
     public static final String QM_CLOSE_ALL_ENABLED      = "pref_key_close_all";
     public static final String QM_DARK_THEME_ENABLED     = "pref_dark_theme";
 
+	// Emoji and Unicode
+    public static final String ENABLE_EMOJIS             = "pref_key_enable_emojis";
+    public static final String STRIP_UNICODE             = "pref_key_strip_unicode";
+
     // Menu entries
     private static final int MENU_RESTORE_DEFAULTS    = 1;
 
