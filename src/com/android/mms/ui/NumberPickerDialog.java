@@ -22,6 +22,7 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.content.res.Configuration;
 import android.view.View;
 import android.widget.NumberPicker;
 
